@@ -34,6 +34,10 @@ h1{
     /*padding-top: 20px;*/
 }
 
+.card p{
+    font-weight: 600;
+}
+
 .card_item{
     height: 90%;
     display: flex;

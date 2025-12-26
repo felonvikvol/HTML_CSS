@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #427042;
+}
+
+.swapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.card{
+    /*border: 1px solid black;*/
+    border-radius: 5px;
+    background-color: #b9d8b9;
+    padding: 20px;
+    width: 280px;
+    height: 220px;
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*.febr{*/
+/*    font-size: 16px;*/
+/*}*/
+
+ul{
+    height: 90%;
+    list-style: none;
+}
+
+li{
+    margin-top: 10px;
+    font-size: 18px;
+}

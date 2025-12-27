@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+section h2{
+    text-align: center;
+    font-size: 48px;
+}
+
+section p{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.bacgrnd_1{
+    background-color: #caa5ca;
+    color: #000;
+}
+.bacgrnd_2{
+    background-color: #3a313a;
+    color: white;
+}

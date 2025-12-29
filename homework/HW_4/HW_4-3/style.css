@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    height: 100vh;
+}
+
+header,footer{
+    height: 22vh;
+    background: #D9D9D9;
+}
+main{
+    height: 56vh;
+    /*background: #A4A4A4;*/
+    display: flex;
+}
+
+aside{
+    height: 100%;
+    width: 27vw;
+    background: #C0BDBD;
+}
+
+section{
+    height: 100%;
+    width: 46vw;
+    /*background: rgba(164, 164, 164, 1);*/
+
+}
+
+.part_one,.part_two{
+    height: 50%;
+}
+
+.part_one{
+    background: rgba(130, 120, 120, 1);
+}
+.part_two{
+    background: rgba(183, 173, 173, 1);
+}
+
+
+
+

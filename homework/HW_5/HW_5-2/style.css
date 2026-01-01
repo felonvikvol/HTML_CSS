@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    list-style-type: none;
+
+    color: #E9E3DC;
+}
+
+body{
+    background: #1E1E1E;
+}
+.font_inter{
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    border: solid 2px white;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+
+}
+
+header{
+    border: solid 2px yellow;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 36px 0 72px 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+header nav ul li a{
+    display: block;
+    font-size: 18px;
+    line-height: 97%;
+    padding: 22px 26px;
+    border: solid 1px white;
+}
+
+.nav_li_active{
+    background: #B3A0CD;
+    color: #1E1E1E;
+}
+
+
+
+
+
+
+

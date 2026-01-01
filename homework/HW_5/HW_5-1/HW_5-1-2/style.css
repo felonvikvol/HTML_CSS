@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: flex-start;*/
+}
+
+.preloader img{
+    width: 150px;
+    /*height: 200px;*/
+    /*background-color: #8f8fe6;*/
+    animation: bird_anime 10s linear infinite;
+    /*alternate;*/
+}
+
+@keyframes bird_anime {
+    0%{
+        transform: translate(10vw,10vh);
+    }
+    20%{
+        transform: translate(80vw,10vh);
+    }
+    40%{
+        transform: translate(80vw,70vh);
+    }
+    60%{
+        transform: translate(10vw,70vh);
+    }
+    100%{
+        transform: translate(10vw,10vh);
+    }
+
+
+
+
+    /*20%{*/
+    /*    transform: scale(1.4);*/
+    /*    border-radius: 35%;*/
+    /*}*/
+    /*40%{*/
+    /*    transform: scale(1.6);*/
+    /*    border-radius: 50%;*/
+    /*}*/
+    /*60%{*/
+    /*    transform: scale(1.4);*/
+    /*    border-radius: 35%;*/
+    /*}*/
+    /*80%{*/
+    /*    transform: scale(1.2);*/
+    /*    border-radius: 20%;*/
+    /*}*/
+    /*100%{*/
+    /*    transform: scale(1);*/
+    /*    border-radius: 0;*/
+    /*}*/
+
+}

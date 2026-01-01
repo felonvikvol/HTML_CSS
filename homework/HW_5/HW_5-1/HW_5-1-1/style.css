@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preloader{
+    width: 200px;
+    height: 200px;
+    background-color: #8f8fe6;
+    animation: square_anim 5s linear infinite alternate;
+}
+
+@keyframes square_anim {
+    0%{
+        transform: scale(1.2);
+        border-radius: 20%;
+    }
+    20%{
+        transform: scale(1.4);
+        border-radius: 35%;
+    }
+    40%{
+        transform: scale(1.6);
+        border-radius: 50%;
+    }
+    60%{
+        transform: scale(1.4);
+        border-radius: 35%;
+    }
+    80%{
+        transform: scale(1.2);
+        border-radius: 20%;
+    }
+    100%{
+        transform: scale(1);
+        border-radius: 0;
+    }
+
+}

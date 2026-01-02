@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    /*color: #441818;*/
+}
+
+li{
+    margin-left: 50px;
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+div{
+    margin: 25px 0;
+}
+
+div h4 span{
+    margin-left: 20px;
+    color: green;
+
+}
+
+.task_1-1 ul li:nth-child(2n){
+    color: pink;
+}
+
+.task_1-2 ul li:nth-child(2n-1){
+    font-size: 22px;
+}
+
+#task_1-3 ul li:nth-child(2n+4)::after{
+    content: "!";
+}
+
+#task_1-4 ul li:last-child{
+    color: purple;
+}
+
+#task_1-5 ul li:first-letter{
+    color: red;
+    font-size: 30px;
+}
+

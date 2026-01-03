@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 75%;
+    margin: 100px auto 20px auto;
+    border: 3px solid #E1E1E1;
+    padding: 100px 0 20px 0;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+}
+
+form>img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+.form_inner{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    width: 90%;
+    margin: 100px auto 50px auto;
+    /*border: solid red;*/
+    /*padding-bottom: 50px;*/
+}
+
+.form_inner input{
+    display: block;
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: solid 2px #E1E1E1;
+    margin-top: 20px;
+}
+
+.form_inner a{
+    display: block;
+    text-decoration: none;
+}
+
+#submit{
+    background-color: #68B5FA;
+    color: white;
+    font-weight: 600;
+    margin-top: 40px;
+    border-radius: 25px;
+    border: none;
+}
+
+.for_facebook{
+    display: flex;
+}
+
+.for_facebook img{
+    display: block;
+    width: 25px;
+}
+
+.for_facebook a:last-child{
+    color: #4F6693;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.or_facebook{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.or_facebook p{
+    text-transform: uppercase;
+    color: #8F8F8F;
+    font-weight: 600;
+}
+
+.or_facebook a{
+    color: #2B5581;
+
+}
+
+footer{
+    width: 75%;
+    margin: 20px auto;
+    border: 3px solid #E1E1E1;
+    /*padding: 100px 0 20px 0;*/
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+footer p{
+    font-weight: 600;
+}
+footer a{
+    text-decoration: none;
+    color: #0095F6;
+}
+

@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px) {
+    body{
+        padding-top: 32px;
+    }
+
+    .container {
+        width: 100%;
+
+    }
+
+    .card {
+        margin: 0 auto;
+        width: 91%;
+        height: 15%;
+    }
+
+}

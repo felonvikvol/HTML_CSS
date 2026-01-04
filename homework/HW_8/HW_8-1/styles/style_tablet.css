@@ -1,0 +1,24 @@
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    body{
+        padding-top: 32px;
+    }
+
+    .container {
+        width: 94%;
+
+    }
+
+    .card {
+        width: 30%;
+        height: 41%;
+    }
+
+    .card_title h2{
+        font-size: 14px;
+    }
+
+    .card_title h3{
+        font-size: 11px;
+    }
+}

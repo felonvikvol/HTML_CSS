@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    padding: 64px 0;
+}
+
+.container{
+    width: 82%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card{
+    width: 23%;
+    position: relative;
+}
+
+.card_img{
+
+}
+
+.card_img img{
+    width: 60%;
+}
+
+
+.card_data h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin: 20px 0 10px 0;
+
+    color: #161543;
+}
+
+.card_data_p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #7687A1;
+}
+

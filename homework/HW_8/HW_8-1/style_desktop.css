@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+
+    padding: 64px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card{
+    width: 32%;
+    height: 46%;
+
+}
+
+.card_img{
+    width: 100%;
+
+}
+
+.card_img img{
+    width: 100%;
+}
+
+.card_title{
+    width: 100%;
+    text-align: center;
+}
+
+.card_title h2{
+    font-size: 20px;
+    margin: 10px 0;
+
+}
+
+.card_title h3{
+    font-size: 13px;
+    letter-spacing: 2px;
+}
